@@ -44,3 +44,53 @@
     text-decoration: none;
     margin-right: 30px;
   }
+
+  /* banner content style */
+
+  .banner-container{
+    margin: 0px 120px;
+    gap: 133px;
+  }
+
+  .banner{
+    max-width: 582px;
+    margin-top: 200px;
+  }
+
+  .banner-title{
+    font-weight: 700;
+    font-size: 3.25rem;
+  }
+
+  .banner-description{
+    font-weight: 500;
+  }
+
+  .btn-primary{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px;
+    max-width: 196px;
+    height: 44px;
+    border-radius: 8px;
+    font-weight: 700;
+  }
+
+  .banner-image{
+    max-width: 440px;
+    margin-top: 211px;
+    background-image: url();
+  }
+
+  @media screen and (max-width:576px) {
+
+    .navbar,
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        margin: 0px auto;
+        flex-direction: column-reverse;
+        margin-top: -24px;
+    }
+  }
